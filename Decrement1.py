@@ -1,5 +1,5 @@
-y=2
+y=20
 x=int(input("Enter any number="))
-while (x>=20):
-  print ("Kaise Ho ")
-  x=x-1
+while (x>=1):
+  print (x-y)
+  y=y-1
