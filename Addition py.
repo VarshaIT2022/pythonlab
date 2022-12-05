@@ -1,0 +1,7 @@
+1. def Add(x, y):
+2. while (y != 0):
+3. carry = x & y.
+4. x = x ^ y.
+5. y = carry << 1.
+6. return x.
+7. print(Add(27,5))
